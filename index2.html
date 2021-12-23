@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dadas Comemorativas</title>
+
+    
+    </head>
+    <body>
+        <div class="header-menu">
+            <img class="image" src="baloes.jpg" alt="icone">
+            <div class="buttons-wrapper">
+                <a href="./index.html" target="_blank"><span class="button">Início</span></a>
+                <a href="./index.html" target="_blank"><span class="button">Produtos</span></a>
+                <a href="./index.html" target="_blank"><span class="button">Visão</span></a>
+                <a href="./index.html" target="_blank"><span class="button">Missão</span></a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="cards-wrapper">
+            <div class="card-info">
+                <article>Maio</article>
+                <article>
+                    <h1>01/05 Dia do Trabalhador</h1>
+                    <a href="https://www.calendarr.com/brasil/dia-do-trabalho/" target="_blank">
+                        <img class="image" alt="Dia do trabalhados" src= "dtrabalhador.jpg"> 
+                    </a>
+                    <br>
+                    <span class="text"> 
+                        Dia do Trabalhador, 
+                        Dia do Trabalho, Dia Internacional dos Trabalhadores ou Festa do Trabalhador é 
+                        uma data comemorativa internacional, dedicada aos trabalhadores, 
+                        celebrada anualmente no dia 1 de maio, em quase todos os países do mundo, 
+                        sendo feriado em muitos deles.
+                    </span>
+                </article>
+            </div>
+            <div class="card-info">
+                <article>Maio</article>
+                <article>
+                    <h1>10/05 Dia das Mães</h1>
+                    <a href="https://www.calendarr.com/brasil/dia-das-maes/" target="_blank">
+                        <img alt="Dia das mães" src= "dmae.jpg"> 
+                    </a>
+                    <br>
+                    <span class="text">
+                        Dia das Mães ou Dia da Mãe é uma data comemorativa que homenageia anualmente a 
+                        figura familiar materna e a maternidade. A data de comemoração varia de acordo com o país. 
+                        Em Portugal é comemorado no primeiro domingo do mês de Maio e no Brasil no segundo domingo 
+                        do mês de maio.
+                    </span>
+                </article>
+            </div>
+            <div class="card-info">
+                <article>Agosto</article>
+                <article>
+                    <h1>09/08 Dia dos Pais</h1>
+                    <a href="https://www.calendarr.com/brasil/dia-dos-pais/" target="_blank">
+                        <img alt="Dia dos pais" src="dpai.jpg"> 
+                    </a>
+                    <br>
+                    <span class="text"> 
+                        Dia dos Pais ou Dia do Pai é uma 
+                        data comemorativa que homenageia anualmente a figura familiar paterna. 
+                        A data varia de acordo com os países.
+                    </span>
+                </article>
+            </div>
+            <div class="card-info">
+                <article>Outubro</article>
+                <article>
+                    <h1>15/10 Dia do Professor</h1>
+                    <a href="https://www.calendarr.com/brasil/dia-do-professor/" target="_blank">
+                        <img alt="Dia dos professores" src="dprof.jpg">
+                    </a> 
+                    <br>
+                    <span class="text"> 
+                        O dia 5 de outubro foi proclamado pela UNESCO como 
+                        Dia Mundial dos Professores em 1994, para celebrar a 
+                        aprovação, em 5 de outubro de 1966, a Recomendação da UNESCO / OIT 
+                        sobre o Estatuto dos Professores, em 
+                        cooperação com OIT, numa conferência intergovernamental especial convocada 
+                        pela UNESCO e realizada em Paris.
+                    </span>
+                </article>
+            </div>
+            </div>
+            <aside>
+                <h1>Datas Comemorativas</h1>
+                <h4>Maio</h4>
+                <h5>01/05 - Dia do Trabalhador</h5>
+    
+                <h4>Maio</h4>
+                <h5>10/05 - Dia das Mães</h5>
+    
+                <h4>Agosto</h4>
+                <h5>09/08 - Dia dos Pais</h5>
+    
+                <h4>Outubro</h4>
+                <h5>15/10 - Dia do Professor</h5>
+            </aside>
+        </div>
+        <div class="footer">
+            <pre>
+                Aluno: Leonardo Torres De Oliveira
+                Data: 13/04/2020
+            </pre>
+        </div>
+    </body>
+    <style>
+        body {
+            height: 150%;
+            width: 100%;
+            display: block;
+            margin: 0px;
+            background: whitesmoke;
+        }
+        .main {
+            display: flex;
+            width: 100%;
+            height: fit-content;
+        }
+
+        .image:hover {
+            cursor: pointer;
+        }
+
+        aside {
+            right: 0;
+            width: fit-content;
+            height: fit-content;
+            position: fixed;
+            border: 0 solid black;
+            border-radius: 20px;
+            margin: 10px;
+            padding: 10px;
+            background: grey;
+        }
+        button {
+            width: fit-content;
+            height: fit-content;
+        }
+        .header-menu {
+            position: relative;
+            padding: 10px;
+            background: white;
+            height: fit-content;
+            min-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header-menu .image {
+            left: 10px;
+            position: absolute;
+            border-radius: 20px;
+            border: 0 solid black;
+            width: 50px;
+            height: auto;
+        }
+        .header-menu .buttons-wrapper {
+            height: fit-content;
+            width: fit-content;    
+            display: flex;
+
+        } 
+
+        .buttons-wrapper .button {
+            padding: 5px;
+            width: fit-content;
+            height: fit-content;
+            margin-right: 15px;
+            font-weight: 600;
+        }
+        .buttons-wrapper .button:hover{
+            cursor: pointer;
+            border-bottom: 1px solid black;
+        }
+
+        .cards-wrapper {
+            width: fit-content;
+            height: fit-content;
+            display: block;
+        }
+        .card-info {
+            padding: 10px;
+            margin: 10px;
+            margin-left: 50px;
+            background: white;
+            border: 0 solid black;
+            border-radius: 12px;
+            max-width: 500px;
+            height: fit-content;
+            box-shadow: 15px black;
+        }
+
+        .card-info .text {
+            max-width: 100px;
+        }
+
+        .footer {
+            padding: 10px;
+            min-height: 70px;
+            background: white;
+            box-shadow: 15px black;
+        }
+        a:link {
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+    </style>
+</html>
